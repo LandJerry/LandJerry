@@ -19,7 +19,8 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
+    environment: 
+      name: production
     steps:
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
@@ -30,3 +31,4 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#aaaaaa
+          token: ${{ secrets.METRICS_TOKEN }}
