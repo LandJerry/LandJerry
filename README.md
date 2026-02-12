@@ -1,24 +1,29 @@
 # Hello 👋, I'm LandJerry
 
-<table border="0" cellpadding="0" cellspacing="0">
-  <tr valign="top">
-    <td width="50%" align="left" style="border: none;">
-      <img src="/github-metrics.svg" alt="Metrics" />
-    </td>
-    <td width="50%" align="left" style="border: none;">
-      <h3>🚀 About Me</h3>
+<h3 style="margin-top: 0;">🚀 About Me</h3>
       <p>I am a Full-Stack AI Engineer.</p>
       <a href="https://git.io/typing-svg">
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&size=18&duration=1000&pause=500&color=F79A71&multiline=true&repeat=false&width=435&lines=Driven+by+curiosity+and+code.;Let%E2%80%99s+dive+into+the+digital+world." alt="Typing SVG" />
       </a>
+
+<hr />
+
+<table border="0">
+  <tr>
+    <td width="50%" valign="center">
+      <img src="/github-metrics.svg" alt="Metrics" style="max-width: 100%;" />
+    </td>
+    <td width="50%" valign="center">
+      <h3 style="margin-top: 0;">🌟 GitHub Stats</h3>
+      <div align="center">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=LandJerry&theme=radical" width="100%" />
+          <img src="https://raw.githubusercontent.com/LandJerry/LandJerry/main/assets/github-contribution-grid-snake.svg" width="100%" />
+      </div>
     </td>
   </tr>
 </table>
 
-## GitHub Stats
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=LandJerry&theme=radical" alt="GitHub Streak" />
-
+<hr />
 
 ## Skills
 
