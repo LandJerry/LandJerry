@@ -1,17 +1,12 @@
 name: generate animation
 
 on:
-  # run automatically every 2 hours
-  schedule:
-    - cron: "0 */2 * * *" 
-
-  # allows to manually run the job at any time
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
   workflow_dispatch:
-
-  # run on every push on the master branch
-  push:
-    branches:
-    - master
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
 
 
 
